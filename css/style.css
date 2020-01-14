@@ -150,7 +150,6 @@ Commom elements
 	background: #94bbe9;
 	color: #fff;
 	line-height: normal;
-	cursor: pointer;
 	text-align: center;
 }
 
@@ -162,6 +161,9 @@ Commom elements
 	background: #eeaeca;
 }
 
+.btn-disabled{
+	cursor: default !important;
+}
 /* Preloder */
 
 #preloder {
@@ -236,7 +238,7 @@ Header section
     text-transform: uppercase;
     font-size: .9rem;
     /* font-weight: 700; */
-    font-family: 'Bubblegum', 'sans-serif' !important;
+    font-family: 'Sniglet', 'sans-serif' !important;
 }
 
 .site-logo {
@@ -992,22 +994,7 @@ Responsive
 	.category-item {
 		margin: 0 0 30px;
 	}
-	.map {
-		height: 450px;
-	}
-	.contact-warp {
-		padding: 100px 40px;
-	}
-	.songs-links {
-		text-align: left;
-		padding-top: 40px;
-	}
-	.song-details-box ul {
-		max-width: 100%;
-	}
-	.search-form {
-		margin-top: 40px;
-	}
+
 }
 
 /* Small Mobile :320px. */
@@ -1178,4 +1165,12 @@ Responsive
 
 .contact-form button{
 	border-radius: 25px;
+}
+
+.back-to-top {
+    z-index: 10;
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+    display: none;
 }
