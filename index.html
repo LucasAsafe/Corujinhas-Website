@@ -37,17 +37,26 @@
 	<!-- Header section -->
 	<header class="header-section clearfix">
 		<a href="index.html" class="site-logo">
-			<img class= "imghero"src="img/logohero.png" width="150px" height="30px" alt="Corujinhas logo">
+			<!-- <img src="img/logo.png" alt=""> -->
+			<h3>Corujinhas</h3>
 		</a>
+		
 		<ul class="main-menu">
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="#">Sobre</a></li>
-			<li><a href="#">Como funciona</a></li>
-			<li><a href="contact.html">Quem somos</a></li>
-			<li><a href="#">Contato</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Pages</a>
+				<ul class="sub-menu">
+					<li><a href="category.html">Category</a></li>
+					<li><a href="playlist.html">Playlist</a></li>
+					<li><a href="artist.html">Artist</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</li>
+			<li><a href="blog.html">News</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</header>
-	<!-- Header section end -->
 
 	<!-- Hero section -->
 	<section class="hero-section">
@@ -64,9 +73,7 @@
 							</div>
 						</div>
 						<div class="col-lg-6">
-							<div class="hr-img">
-								<img src="img/hero-bg.png" alt="">
-							</div>
+							<img src="img/logohero.png" class="img-fluid" alt="">
 						</div>
 					</div>
 				</div>
@@ -97,7 +104,7 @@
 	<section class="how-section spad text-dark">
 		<div class="container">
 			<div class="section-title">
-				<h2>Como funciona/diferenciais</h2>
+				<h2>Como funciona?</h2>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -145,7 +152,7 @@
 					<p>A equipe Corujinhas é composta por Flávio Braga, Lucas Asafe e Yuri Valença. Estamos juntos há cerca de 3 anos e este é nosso maior e mais ambicioso projeto. Passe o mouse sobre as fotos para descobrir mais sobre cada um!</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row justify-content-center">
 				<div class="col-lg-3 col-sm-6">
 					<div class="concept-item">
 						<img src="img/asafe_prof.jpg" alt="">
@@ -209,7 +216,33 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-sm-6">
+				<div class="col-6">
+					<h4><i class="far fa-envelope"></i> &nbsp; <a href="mailto:corujinhasapp@gmail.com">corujinhasapp@gmail.com</a></p>
+					<h4><i class="fab fa-instagram"></i> &nbsp; <a href="instagram.com/corujinhasapp">Instagram</a></p>
+					<h4><i class="fab fa-twitter"></i> &nbsp; <a href="twitter.com/corujinhasapp">Twitter</a></p>
+				</div>
+				<div class="col-6">
+					<form class="form-signin contact-form">
+						<div class="form-label-group">
+							<input type="text" id="inputNome" class="form-control" name="nome" placeholder="Nome" required autofocus>
+							<label for="inputNome">Nome</label>
+						</div>
+					
+						<div class="form-label-group">
+							<input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required>
+							<label for="inputEmail">Email</label>
+						</div>
+					
+						<div class="form-label-group">
+							<textarea class="form-control" name="message" rows="4" id="inputMessage"></textarea>
+							<label for="inputMessage">Mensagem</label>
+						</div>
+					
+						<button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
+						<p class="mt-5 mb-3 text-muted text-center">&copy; 2019</p>
+					</form>
+				</div>
+				<!-- <div class="col-lg-3 col-sm-6">
 					<div class="premium-item">
 						<img src="img/ig_logo.png" alt="">
 						<h4>Instagram</h4>
@@ -229,7 +262,7 @@
 						<h4>Twitter</h4>
 						<p><a href="#">@CorujinhasApp</a></p>
 					</div>
-				</div>
+				</div> -->
 				<!--<div class="col-lg-3 col-sm-6">
 					<div class="premium-item">
 						<img src="img/premium/4.jpg" alt="">
@@ -241,64 +274,6 @@
 		</div>
 	</section>
 	<!-- Premium section end -->
-
-	<!-- Footer section --> <!--Do we really need it tho??-->
-	<footer class="footer-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-6 col-lg-7 order-lg-2">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>About us</h2>
-								<ul>
-									<li><a href="">Our Story</a></li>
-									<li><a href="">Sol Music Blog</a></li>
-									<li><a href="">History</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>Products</h2>
-								<ul>
-									<li><a href="">Music</a></li>
-									<li><a href="">Subscription</a></li>
-									<li><a href="">Custom Music</a></li>
-									<li><a href="">Footage</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="footer-widget">
-								<h2>Playlists</h2>
-								<ul>
-									<li><a href="">Newsletter</a></li>
-									<li><a href="">Careers</a></li>
-									<li><a href="">Press</a></li>
-									<li><a href="">Contact</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xl-6 col-lg-5 order-lg-1">
-					<img src="img/logo.png" alt="">
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-					<div class="social-links">
-						<a href=""><i class="fa fa-instagram"></i></a>
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-youtube"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
 	
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-3.2.1.min.js"></script>
