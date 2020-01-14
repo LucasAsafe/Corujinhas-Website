@@ -344,6 +344,11 @@ Header section
 Hero section
  ---------------------*/
 
+.imghero{
+	height: 65px;
+	width: 130px;
+}
+
 .hero-section {
 	overflow: hidden;
 }
@@ -587,7 +592,7 @@ Subscription section
 	
 background: rgb(63,94,251);
 background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(148,187,233,1) 100%);
-	padding: 70px 15px 50px 155px;
+	padding: 70px 15px 50px 100px;
 	border-radius: 42px;
 }
 
