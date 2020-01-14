@@ -55,8 +55,10 @@ p {
 	font-weight: 500;
 }
 
-img {
+img { /*MUDAR A CLASSE DO LOGOHERO, PRA N SEGUIR ESSE PADRÃO AQUI*/
 	max-width: 100%;
+	width: 150px;
+	height: 150px;
 }
 
 input:focus,
@@ -615,9 +617,10 @@ Premium section
 .premium-item img {
 	width: 190px;
 	height: 190px;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	margin-bottom: 40px;
 }
+
 
 .premium-item h4 {
 	margin-bottom: 4px;
