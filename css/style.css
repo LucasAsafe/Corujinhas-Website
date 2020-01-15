@@ -53,7 +53,7 @@ h6 {
 p {
 	font-size: 15px;
 	font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	color: #D1FCEC;
+	color: #313832;
 	line-height: 1.8;
 	font-weight: 500;
 }
@@ -575,20 +575,20 @@ Subscription section
 }
 
 .sub-text h2 {
-	color: #313832;
+	color: #daf7dc;
 	font-size: 60px;
 	margin-bottom: 20px;
 	font-weight: 500;
 }
 
 .sub-text h3 {
-	color: #c3bef7;
+	color: #daf7dc;
 	margin-bottom: 30px;
 	font-weight: 500;
 }
 
 .sub-text p {
-	color: #313832;
+	color: #fff;
 	font-weight: 400;
 	opacity: 0.6;
 	margin-bottom: 40px;
@@ -598,8 +598,10 @@ Subscription section
 	list-style: none;
 	/* background: #c3bef7; */
 	
-background: rgb(63,94,251);
-background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(148,187,233,1) 100%);
+/*background: rgb(63,94,251);
+background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(148,187,233,1) 100%);*/
+background: rgb(238,174,202);
+background: linear-gradient(215deg, rgba(238,174,202,1) 0%, rgba(91,16,125,1) 100%);
 	padding: 70px 15px 50px 100px;
 	border-radius: 42px;
 }
@@ -901,7 +903,7 @@ Responsive
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		color: #fc0254;
+		or: #fc0254;
 		background: transparent;
 	}
 	.slicknav_btn {
