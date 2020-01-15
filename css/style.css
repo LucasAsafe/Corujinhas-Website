@@ -170,10 +170,13 @@ Commom elements
 	padding: 23px 20px;
 	border-radius: 50px;
 	text-transform: uppercase;
-	background: #94bbe9;
-	color: #fff;
+	background: #fff;
+	color: #94bbe9;
 	line-height: normal;
 	text-align: center;
+}
+footer-btn:hover {
+	color: #333333;
 }
 
 .btn-disabled{
