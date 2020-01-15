@@ -154,11 +154,29 @@ Commom elements
 }
 
 .site-btn:hover {
-	color: #fff;
+	color: #333333;
 }
 
 .site-btn.sb-c2 {
 	background: #eeaeca;
+}
+
+.footer-btn{
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+	min-width: 195px;
+	padding: 23px 20px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	background: #fff;
+	color: #94bbe9;
+	line-height: normal;
+	text-align: center;
+}
+footer-btn:hover {
+	color: #333333;
 }
 
 .btn-disabled{
@@ -597,11 +615,8 @@ Subscription section
 .sub-list {
 	list-style: none;
 	/* background: #c3bef7; */
-	
-/*background: rgb(63,94,251);
-background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(148,187,233,1) 100%);*/
-background: rgb(238,174,202);
-background: linear-gradient(215deg, rgba(238,174,202,1) 0%, rgba(91,16,125,1) 100%);
+	background: rgb(238,174,202);
+	background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 	padding: 70px 15px 50px 100px;
 	border-radius: 42px;
 }
