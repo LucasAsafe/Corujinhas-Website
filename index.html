@@ -29,6 +29,9 @@
 
 </head>
 <body>
+
+	<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+		class="fas fa-chevron-up"></i></a>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -42,19 +45,23 @@
 		</a>
 		
 		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#sobre">About</a></li>
-			<li><a href="#func">Pages</a>
+			<li>
+				<a class="js-scroll-trigger" href="index.html">Início</a>
+			</li>
+			<li>
+				<a class="js-scroll-trigger" href="#">A Solução</a>
 				<ul class="sub-menu">
-					<li><a href="category.html">Category</a></li>
-					<li><a href="playlist.html">Playlist</a></li>
-					<li><a href="artist.html">Artist</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a class="js-scroll-trigger" href="playlist.html">Algoritmo</a></li>
+					<li><a class="js-scroll-trigger" href="category.html">Benefícios</a></li>
+					<li><a class="js-scroll-trigger" href="index.html#">Como Funciona</a></li>					
 				</ul>
 			</li>
-			<li><a href="#quem">News</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li>
+				<a class="js-scroll-trigger" href="index.html#quem">Quem Somos</a>
+			</li>
+			<li>
+				<a class="js-scroll-trigger" href="index.html#contact">Contato</a>
+			</li>
 		</ul>
 	</header>
 
@@ -68,11 +75,11 @@
 							<div class="hs-text">
 								<h2>Corujinhas</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
-								<a href="#" class="site-btn">Download Now</a>
-								<a href="#" class="site-btn sb-c2">Start free trial</a>
+								<a href="#" class="site-btn">Baixar APK <i class="fab fa-android"></i></a>
+								<a href="#" class="site-btn btn-disabled sb-c2">Google Play <i class="fab fa-google-play"></i> <span class="badge badge-light">Breve</span></a>
 							</div>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-lg-6 h-100 my-auto">
 							<img src="img/logohero.png" class="img-fluid" alt="">
 						</div>
 					</div>
@@ -93,7 +100,6 @@
 				</div>
 				<div class="col-lg-6">
 					<p>O Corujinhas traz uma abordagem inovadora para o aprendizado da escrita e melhora da coordenação motora. O aplicativo visa, diferentemente do caderno de caligrafia, ensinar o usuário de forma divertida, interativa e cativante. Nosso software foi desenvolvido com o intuito de maximizar o potencial de conhecimento da criança ao entreter e lecionar simultaneamente.</p>
-					<a href="#" class="site-btn">Try it now</a>
 				</div>
 			</div>
 		</div>
@@ -185,7 +191,6 @@
 						<h2>Benefícios</h2>
 						<h3>Veja quanta coisa iremos proporcionar ao usuário!</h3>
 						<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<a href="#" class="site-btn">Try it now</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -203,7 +208,7 @@
 	<!-- Subscription section end -->
 
 	<!-- Premium section end -->
-	<section class="premium-section spad">
+	<section id="about" class="premium-section spad">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -224,7 +229,7 @@
 				<div class="col-6">
 					<form class="form-signin contact-form">
 						<div class="form-label-group">
-							<input type="text" id="inputNome" class="form-control" name="nome" placeholder="Nome" required autofocus>
+							<input type="text" id="inputNome" class="form-control" name="nome" placeholder="Nome" required>
 							<label for="inputNome">Nome</label>
 						</div>
 					
@@ -276,12 +281,12 @@
 	<!-- Premium section end -->
 	
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
 	<script src="js/main.js"></script>
-
 	</body>
 </html>
