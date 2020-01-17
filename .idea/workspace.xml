@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="483e1cd7-1b6a-4667-be6c-71230eee745e" name="Default Changelist" comment="" />
+    <list default="true" id="483e1cd7-1b6a-4667-be6c-71230eee745e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +53,9 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WLZ4jSIAEgswq04ew2NEhHfkyu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +66,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/var/www/html/Virtue-DjoeElaboracao" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -84,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578930645087</updated>
       <workItem from="1578930646549" duration="1905000" />
+      <workItem from="1579119068167" duration="30000" />
     </task>
     <servers />
   </component>
@@ -95,9 +103,17 @@
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
     <state x="3435" y="741" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052/1920.0.3840.2160@1920.0.3840.2160" timestamp="1578930726745" />
+    <state x="743" y="312" width="424" height="480" key="FileChooserDialogImpl" timestamp="1579119097362">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="743" y="312" width="424" height="480" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1579119097362" />
     <state x="3558" y="714" width="552" height="728" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1578931948850">
       <screen x="1920" y="0" width="3840" height="2160" />
     </state>
     <state x="3558" y="714" width="552" height="728" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.28.1920.1052/1920.0.3840.2160@1920.0.3840.2160" timestamp="1578931948850" />
+    <state x="599" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1579119075680">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="599" y="381" key="com.intellij.ide.util.TipDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1579119075680" />
   </component>
 </project>
