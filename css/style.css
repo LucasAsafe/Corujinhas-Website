@@ -53,9 +53,9 @@ h6 {
 p {
 	font-size: 15px;
 	font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	color: #313832;
+	color: #fff;
 	line-height: 1.8;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 img { /*MUDAR A CLASSE DO LOGOHERO, PRA N SEGUIR ESSE PADRÃO AQUI*/
@@ -592,17 +592,27 @@ Subscription section
 	padding-right: 15px;
 }
 
+.darktext h2{
+	color: #313832 !important;
+}
+.darktext h3{
+	color: #313832 !important;
+}
+.darktext p{
+	color: #313832 !important;
+}
+
 .sub-text h2 {
 	color: #daf7dc;
 	font-size: 60px;
 	margin-bottom: 20px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .sub-text h3 {
 	color: #daf7dc;
 	margin-bottom: 30px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .sub-text p {
@@ -1022,6 +1032,13 @@ Responsive
 	.sub-text h2 {
 		font-size: 36px;
 	}
+
+	.section-title p{
+		font-weight: 400;
+		opacity: 0.6;
+		margin-bottom: 40px;
+	}
+
 	.wave-player-info h2 {
 		font-size: 24px;
 	}
